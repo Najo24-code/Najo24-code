@@ -31,6 +31,21 @@ Me enfoco en tres cosas: que funcione, que sea fácil de usar y que aguante el u
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 
+### Mi actividad en GitHub
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=Najo24-code&theme=default)
+
+<!--
+Tarjetas de github-readme-stats (descomenta cuando el servicio vuelva a estar disponible):
+
+<a href="https://github.com/Najo24-code">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Najo24-code&show_icons=true&theme=default" />
+</a>
+<a href="https://github.com/Najo24-code">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Najo24-code&layout=compact&langs_count=8&card_width=320" />
+</a>
+-->
+
 ### Contacto
 
 - Portafolio: [najo24-code.github.io/pilotoapps-web](https://najo24-code.github.io/pilotoapps-web)
