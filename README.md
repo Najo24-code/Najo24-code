@@ -1,24 +1,25 @@
 <h1 align="center">Jonas Suárez</h1>
 
 <p align="center">
-  <b>Desarrollador de software a la medida · Forja</b><br>
-  Construyo sistemas web y móviles para PYMEs en República Dominicana.
+  <b>DevOps / Full-stack</b> · República Dominicana<br>
+  Hago el sistema completo: la infra, el código y el despliegue.
 </p>
 
 ---
 
 ### Sobre mí
 
-Soy desarrollador full stack. Diseño, construyo y despliego el sistema completo, así que hablas directo con quien lo hace, sin intermediarios. Trabajo con negocios reales: préstamos, gimnasios, agendas y CRMs que están en producción hoy.
+Soy DevOps y full-stack. Me encargo de que las cosas estén arriba y aguanten el uso diario: armo la infraestructura, escribo el backend y el frontend, y despliego yo mismo. Prefiero lo que está en producción y funcionando a la demo de PowerPoint.
 
-Me enfoco en tres cosas: que funcione, que sea fácil de usar y que aguante el uso diario.
+Trabajo con negocio real: préstamos, gimnasios, agendas y CRMs que se usan todos los días. Mi forma de hacerlo es simple — que funcione, que sea fácil de mantener y que no se caiga.
 
-### Lo que hago
+### Cómo trabajo
 
-- **Backend y APIs** con Python (FastAPI), Node y TypeScript
-- **Web** con Next.js, React y Tailwind
-- **Móvil** cuando el proyecto lo pide
-- **DevOps**: Docker, CI en cada repo, despliegue y monitoreo
+- **Infraestructura**: Proxmox VE (2 hosts, con VMs y almacenamiento en pool), Docker y docker-compose.
+- **Despliegue**: por `git push` directo al servidor, con rebuild automático. Uso blue-green en los servicios críticos para no tumbar producción.
+- **Red**: Tailscale (VPN mesh) entre servidores; acceso a todo el stack por SSH.
+- **Verificación**: smoke tests de arranque y curl al healthcheck después de cada deploy. Si algo sale rojo, se revierte.
+- **Código**: FastAPI, Node/TypeScript, Next.js, React, Tailwind.
 
 ### Stack
 
@@ -30,6 +31,9 @@ Me enfoco en tres cosas: que funcione, que sea fácil de usar y que aguante el u
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat&logo=proxmox&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-24292F?style=flat&logo=tailscale&logoColor=white)
 
 ### Mi actividad en GitHub
 
@@ -46,10 +50,19 @@ Tarjetas de github-readme-stats (descomenta cuando el servicio vuelva a estar di
 </a>
 -->
 
+### Algunos proyectos
+
+- **support-tickets-api** — sistema de ticket de soporte (FastAPI + JWT)
+- **restaurant-booking-api** — reservas de restaurante con mesas y horarios (FastAPI + JWT)
+- **hotel-booking-api** — reservas de hotel con autenticación (FastAPI + JWT)
+- **expense-tracker-api** — gastos personales (FastAPI + JWT)
+- **book-tracker-api** — gestión de lectura (FastAPI + JWT)
+- **crm-contacts-api** — CRM de contactos (FastAPI + JWT)
+- **taskflow-api** — tareas y proyectos (FastAPI + JWT)
+
+La mayoría de mis proyectos de clientes son privados; estos son los públicos.
+
 ### Contacto
 
-- Portafolio: [najo24-code.github.io/pilotoapps-web](https://najo24-code.github.io/pilotoapps-web)
-- WhatsApp: [849-582-1328](https://wa.me/18495821328)
 - Correo: jonassuarez30@gmail.com
-
-<p align="center"><i>La mayoría de mis proyectos son privados por acuerdos con clientes. Con gusto muestro demos en una llamada.</i></p>
+- Portafolio: [najo24-code.github.io/pilotoapps-web](https://najo24-code.github.io/pilotoapps-web)
