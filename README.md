@@ -4,10 +4,10 @@
 $ whoami
 ```
 
-**Junior Developer** · Dominican Republic  
+**Developer** · Dominican Republic  
 I ship code, containers, and infrastructure — all the way from commit to production.
 
-![Status](https://img.shields.io/badge/status-junior-3fb950?style=flat-square&labelColor=0d1117)
+![Status](https://img.shields.io/badge/status-active-3fb950?style=flat-square&labelColor=0d1117)
 ![Location](https://img.shields.io/badge/location-Dominican_Republic-58a6ff?style=flat-square&labelColor=0d1117)
 ![Deploy](https://img.shields.io/badge/deploy-git_push_→_rebuild-58a6ff?style=flat-square&labelColor=0d1117)
 
@@ -58,7 +58,7 @@ Non-negotiable principles:
 - Deploy via `git push` to the server with automatic rebuild.
 - 2 Proxmox hosts, VMs, and Tailscale for networking.
 
-> I'm a junior and I own it: I learn by breaking things (and fixing them).
+> I learn by building, breaking, and fixing things — for real.
 
 ---
 
