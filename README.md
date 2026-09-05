@@ -1,4 +1,4 @@
-<img align="center" src="https://raw.githubusercontent.com/Najo24-code/Najo24-code/main/banner.svg" />
+<img align="center" src="https://raw.githubusercontent.com/Najo24-code/Najo24-code/main/banner.svg?v=2" />
 
 ```
 $ whoami
