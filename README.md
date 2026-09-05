@@ -1,80 +1,81 @@
 <img align="center" src="https://raw.githubusercontent.com/Najo24-code/Najo24-code/main/banner.svg" />
 
-#### `$ status`
+```
+$ whoami
+```
 
-Hago el camino completo: escribo el código, lo meto en Docker y lo lanzo yo.
+**Junior Developer** · Dominican Republic  
+I ship code, containers, and infrastructure — all the way from commit to production.
 
-![Junior](https://img.shields.io/badge/status-junior-3fb950?style=flat-square&labelColor=0d1117)
-![Ubicación](https://img.shields.io/badge/ubicación-Rep._Dominicana-58a6ff?style=flat-square&labelColor=0d1117)
-![Stack](https://img.shields.io/badge/stack-Python_·_FastAPI-3776AB?style=flat-square&labelColor=0d1117)
+![Status](https://img.shields.io/badge/status-junior-3fb950?style=flat-square&labelColor=0d1117)
+![Location](https://img.shields.io/badge/location-Dominican_Republic-58a6ff?style=flat-square&labelColor=0d1117)
 ![Deploy](https://img.shields.io/badge/deploy-git_push_→_rebuild-58a6ff?style=flat-square&labelColor=0d1117)
 
 ---
 
-#### `$ build` — el stack
+## `$ build` — the stack
 
-| Categoría | Herramientas |
+| Category | Tools |
 |---|---|
-| **Sistema** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000) ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Tailscale](https://img.shields.io/badge/Tailscale-5B58EB?style=flat-square&logo=tailscale&logoColor=white) |
-| **Contenedores** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![docker-compose](https://img.shields.io/badge/docker--compose-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| **Automatización** | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000) ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Tailscale](https://img.shields.io/badge/Tailscale-5B58EB?style=flat-square&logo=tailscale&logoColor=white) |
+| **Containers** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![docker-compose](https://img.shields.io/badge/docker--compose-2496ED?style=flat-square&logo=docker&logoColor=white) |
+| **Automation** | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 | **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
 | **Frontend** | ![Node](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) |
 
 ---
 
-#### `$ test` — repos públicos
+## `$ test` — public repos
 
-Casi todo lo que construyo para clientes es privado. Lo que sí está a la vista, en su mayoría FastAPI + JWT:
+Most of what I build for clients is private. Here's what's visible — mostly FastAPI + JWT:
 
-| Repo | Qué hace |
+| Repo | Description |
 |---|---|
-| [support-tickets-api](https://github.com/Najo24-code/support-tickets-api) | tickets de soporte |
-| [restaurant-booking-api](https://github.com/Najo24-code/restaurant-booking-api) | reservas con mesas |
-| [hotel-booking-api](https://github.com/Najo24-code/hotel-booking-api) | reservas de hotel |
-| [expense-tracker-api](https://github.com/Najo24-code/expense-tracker-api) | gastos personales |
-| [book-tracker-api](https://github.com/Najo24-code/book-tracker-api) | lectura |
-| [crm-contacts-api](https://github.com/Najo24-code/crm-contacts-api) | contactos |
-| [taskflow-api](https://github.com/Najo24-code/taskflow-api) | tareas y proyectos |
+| [support-tickets-api](https://github.com/Najo24-code/support-tickets-api) | Support ticket system |
+| [restaurant-booking-api](https://github.com/Najo24-code/restaurant-booking-api) | Restaurant table reservations |
+| [hotel-booking-api](https://github.com/Najo24-code/hotel-booking-api) | Hotel booking system |
+| [expense-tracker-api](https://github.com/Najo24-code/expense-tracker-api) | Personal expense tracker |
+| [book-tracker-api](https://github.com/Najo24-code/book-tracker-api) | Reading tracker |
+| [crm-contacts-api](https://github.com/Najo24-code/crm-contacts-api) | CRM contacts |
+| [taskflow-api](https://github.com/Najo24-code/taskflow-api) | Tasks and projects |
 
 ---
 
-#### `$ deploy` — cómo trabajo
+## `$ deploy` — how I work
 
 ```bash
-$ git push origin main        # al remoto, rebuild automático
+$ git push origin main        # push to remote, auto rebuild
 $ docker compose up -d --build
 $ curl -fsS .../health         # smoke test
 $ exit 0                       # green
 ```
 
-Principios que no negocio:
+Non-negotiable principles:
 
-- **Blue-green** en lo crítico: no tumbar producción mientras se cambia.
-- **Rollback si sale rojo**: el smoke test manda; si falla, vuelvo atrás.
-- **Un comando de deploy**: `git push` es todo lo que hace falta.
-- Deployo por `git push` directo al servidor con rebuild automático.
-- 2 hosts Proxmox, VMs y Tailscale para la red.
+- **Blue-green** for critical paths: never take down prod while changing.
+- **Rollback on red**: the smoke test decides; if it fails, I revert.
+- **Single deploy command**: `git push` is all it takes.
+- Deploy via `git push` to the server with automatic rebuild.
+- 2 Proxmox hosts, VMs, and Tailscale for networking.
 
-> Soy junior y lo asumo: aprendo rompiendo cosas mías (y arreglándolas).
+> I'm a junior and I own it: I learn by breaking things (and fixing them).
 
 ---
 
-#### `$ healthcheck` — actividad
+## `$ activity` — streak
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=Najo24-code&theme=github-dark)
 
-<!--
-  github-readme-stats está caído. Activar cuando vuelva:
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Najo24-code&show_icons=true&theme=github_dark)
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Najo24-code&layout=compact&theme=github_dark)
+<!-- github-readme-stats is down. Activate when it returns:
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Najo24-code&show_icons=true&theme=github_dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Najo24-code&layout=compact&theme=github_dark)
 -->
 
 ---
 
-#### `$ exit 0`
+## `$ exit 0`
 
-Todo en verde, sin tono de venta.
+All green, no sales pitch.
 
-![Correo](https://img.shields.io/badge/jonassuarez30%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)
-[![Portafolio](https://img.shields.io/badge/Portafolio-58a6ff?style=flat-square&logo=githubpages&logoColor=white)](https://najo24-code.github.io/pilotoapps-web)
+![Email](https://img.shields.io/badge/jonassuarez30%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)
+[![Portfolio](https://img.shields.io/badge/Portfolio-58a6ff?style=flat-square&logo=githubpages&logoColor=white)](https://najo24-code.github.io/pilotoapps-web)
