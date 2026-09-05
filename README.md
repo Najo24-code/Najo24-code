@@ -32,6 +32,7 @@ Most of what I build for clients is private. Here's what's visible:
 | Repo | Description |
 |---|---|
 | [ai-engineering-system](https://github.com/Najo24-code/ai-engineering-system) | Multi-agent software engineering system |
+| [dotfiles-opencode](https://github.com/Najo24-code/dotfiles-opencode) | Multi-agent OpenCode config (agents, skills, commands) |
 | [support-tickets-api](https://github.com/Najo24-code/support-tickets-api) | Support ticket system |
 | [restaurant-booking-api](https://github.com/Najo24-code/restaurant-booking-api) | Restaurant table reservations |
 | [hotel-booking-api](https://github.com/Najo24-code/hotel-booking-api) | Hotel booking system |
