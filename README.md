@@ -27,10 +27,11 @@ I ship code, containers, and infrastructure — all the way from commit to produ
 
 ## `$ test` — public repos
 
-Most of what I build for clients is private. Here's what's visible — mostly FastAPI + JWT:
+Most of what I build for clients is private. Here's what's visible:
 
 | Repo | Description |
 |---|---|
+| [ai-engineering-system](https://github.com/Najo24-code/ai-engineering-system) | Multi-agent software engineering system |
 | [support-tickets-api](https://github.com/Najo24-code/support-tickets-api) | Support ticket system |
 | [restaurant-booking-api](https://github.com/Najo24-code/restaurant-booking-api) | Restaurant table reservations |
 | [hotel-booking-api](https://github.com/Najo24-code/hotel-booking-api) | Hotel booking system |
