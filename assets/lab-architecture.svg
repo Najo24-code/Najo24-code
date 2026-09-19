@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="848" viewBox="0 0 560 848" role="img" aria-labelledby="lab-title lab-desc">
+  <title id="lab-title">CodeCoreX personal Linux lab</title>
+  <desc id="lab-desc">An ASUS workstation running Pop!_OS connects through SSH over Tailscale to a CodeCoreX Ubuntu Server with 16 GB RAM. Docker and Docker Compose support lab experiments with PostgreSQL, Nginx, Traefik, Grafana, Loki, Uptime Kuma and Portainer. This is a conceptual diagram of the lab, not an assertion that every service is running or publicly accessible.</desc>
+  <!-- Self-contained, static SVG. Service names describe experiments, not live telemetry. -->
+  <rect x="1" y="1" width="558" height="846" rx="20" fill="#10151c" stroke="#2b3948"/>
+  <g fill="none" stroke="#243240" stroke-width="1">
+    <path d="M24 48H536M24 816H536"/>
+    <path d="M28 28H40M28 28V40M532 28H520M532 28V40"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', monospace">
+    <text x="52" y="34" fill="#a7b5c5" font-size="17" letter-spacing="2">CODECOREX / PERSONAL LAB</text>
+
+    <!-- The two confirmed machines and their private administration path. -->
+    <rect x="28" y="72" width="504" height="108" rx="12" fill="#161e28" stroke="#344658"/>
+    <path d="M28 96V156" stroke="#69d9ef" stroke-width="3"/>
+    <text x="50" y="112" fill="#edf3f8" font-size="28" font-weight="600">ASUS workstation</text>
+    <text x="50" y="150" fill="#a7b5c5" font-size="24">Pop!_OS / development</text>
+
+    <path d="M64 180V242" fill="none" stroke="#69d9ef" stroke-width="2"/>
+    <path d="M58 235L64 242L70 235" fill="none" stroke="#69d9ef" stroke-width="2"/>
+    <text x="88" y="218" fill="#69d9ef" font-size="24">SSH over Tailscale</text>
+
+    <rect x="28" y="244" width="504" height="122" rx="12" fill="#161e28" stroke="#344658"/>
+    <path d="M28 268V342" stroke="#69d9ef" stroke-width="3"/>
+    <text x="50" y="286" fill="#edf3f8" font-size="28" font-weight="600">CodeCoreX server</text>
+    <text x="50" y="326" fill="#a7b5c5" font-size="24">Ubuntu Server / 16 GB RAM</text>
+
+    <path d="M64 366V398" fill="none" stroke="#69d9ef" stroke-width="2"/>
+    <rect x="28" y="398" width="504" height="78" rx="12" fill="#161e28" stroke="#344658"/>
+    <rect x="50" y="428" width="16" height="16" rx="3" fill="none" stroke="#69d9ef" stroke-width="2"/>
+    <text x="88" y="447" fill="#edf3f8" font-size="26" font-weight="600">Docker + Compose</text>
+
+    <!-- A grouped conceptual service layer, intentionally without live-state dots. -->
+    <path d="M64 476V516" fill="none" stroke="#69d9ef" stroke-width="2"/>
+    <rect x="28" y="516" width="504" height="276" rx="12" fill="#161e28" stroke="#344658"/>
+    <text x="50" y="550" fill="#69d9ef" font-size="22" font-weight="600">EXPERIMENTS</text>
+    <text x="50" y="578" fill="#a7b5c5" font-size="20">CONCEPTUAL / NOT LIVE STATUS</text>
+    <path d="M50 596H510" stroke="#344658"/>
+    <g font-size="24">
+      <text x="50" y="630" fill="#a7b5c5">data</text>
+      <text x="180" y="630" fill="#edf3f8">PostgreSQL</text>
+      <text x="50" y="664" fill="#a7b5c5">ingress</text>
+      <text x="180" y="664" fill="#edf3f8">Nginx / Traefik</text>
+      <text x="50" y="698" fill="#a7b5c5">observe</text>
+      <text x="180" y="698" fill="#edf3f8">Grafana / Loki</text>
+      <text x="180" y="732" fill="#edf3f8">Uptime Kuma</text>
+      <text x="50" y="766" fill="#a7b5c5">manage</text>
+      <text x="180" y="766" fill="#edf3f8">Portainer</text>
+    </g>
+    <text x="28" y="836" fill="#a7b5c5" font-size="16">TWO MACHINES. ONE PLACE TO LEARN.</text>
+  </g>
+</svg>

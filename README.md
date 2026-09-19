@@ -1,83 +1,137 @@
-<img align="center" src="https://raw.githubusercontent.com/Najo24-code/Najo24-code/main/banner.svg?v=2" />
+<img src="assets/hero.svg" width="100%" alt="Jonas Suárez — Software Builder / Linux / DevOps in Progress. Building software. Running infrastructure. Learning how everything connects. Dominican Republic." />
 
+# Jonas Suárez
+
+**Software Builder · Linux · DevOps in Progress**
+
+Dominican Republic 🇩🇴 · [GitHub](https://github.com/Najo24-code) · [Email](mailto:jonassuarez30@gmail.com)
+
+## `jonas@codecorex:~$ whoami`
+
+I'm Jonas — a software builder increasingly interested in what happens after the code works.
+
+I build applications, run a personal Linux lab, and explore how code, containers, networks, and databases fit together. I'm moving deeper into DevOps by operating things, understanding their failures, and automating the repeatable parts.
+
+**Current focus**
+
+| | Area | What I'm working toward |
+| :-- | :-- | :-- |
+| `01` | Linux administration | Understand the machine behind the service |
+| `02` | Docker & containers | Make environments reproducible |
+| `03` | Networking | Trace how services reach each other |
+| `04` | CI/CD | Check changes before deploying them |
+| `05` | Backend engineering | Build APIs with deliberate data models |
+| `06` | Cloud fundamentals | Connect local practice to cloud concepts |
+
+## `jonas@codecorex:~$ lab --status`
+
+**CodeCoreX / personal infrastructure lab**
+
+My ASUS workstation runs **Pop!_OS**. My **Ubuntu Server** machine has **16 GB RAM**, with **Docker**, **SSH**, and **Tailscale** as the foundation for learning and operating services.
+
+<p align="center">
+  <img src="assets/lab-architecture.svg" width="560" alt="CodeCoreX lab: ASUS workstation running Pop!_OS connects to an Ubuntu Server with 16 GB RAM through SSH over Tailscale. Docker and Compose support experiments with data, reverse proxies, observability, and service management. This is a conceptual lab map, not live service status." />
+</p>
+
+The lab is where I experiment with PostgreSQL, Nginx and Traefik, Grafana and Loki, Uptime Kuma, and Portainer — alongside networking, deployments, monitoring, automation, and self-hosted services. These are areas of practice, not a claim that every service is running at once.
+
+## `jonas@codecorex:~$ ls ./building`
+
+### `01 /` SUAPRÉSTAMOS
+
+**Loan management · In development**
+
+A product-oriented application for managing loans and collections. Working across API design, relational data, and a Vue interface brings the backend and the user experience into the same problem.
+
+`Python` · `FastAPI` · `PostgreSQL` · `Vue` · `Docker`
+
+*No public source link available.*
+
+---
+
+### `02 /` [ATLAS / AI Engineering System](https://github.com/Najo24-code/ai-engineering-system)
+
+**Engineering automation · Experimental**
+
+A personal multi-agent engineering system exploring agent responsibilities, permission boundaries, and verification. The interesting question: how do you check an agent's work instead of trusting its report?
+
+`JavaScript` · `Node.js` · `LLM workflows` · `Multi-agent systems`
+
+---
+
+### `03 /` CODECOREX LAB
+
+**Personal infrastructure · Ongoing practice**
+
+The environment behind the experiments: Linux administration, containers, networking, and observability. Repeated operations are opportunities to understand the system and build better tools.
+
+One public piece: [**Atlas CLI**](https://github.com/Najo24-code/atlas-cli), a Go command-line project bringing server, GitHub, and observability operations into one interface.
+
+`Linux` · `Docker Compose` · `SSH` · `Tailscale` · `Go`
+
+## `jonas@codecorex:~$ cat toolbox.conf`
+
+Tools I use in projects or practice with in the lab. Inclusion describes use, not mastery.
+
+| Domain | Tools |
+| :-- | :-- |
+| `systems` | Linux · Ubuntu Server · Pop!_OS · Bash · SSH · Git |
+| `containers` | Docker · Docker Compose |
+| `backend & automation` | Python · FastAPI · Go · Node.js |
+| `data` | PostgreSQL |
+| `web` | JavaScript · TypeScript · Vue · Next.js |
+| `lab / ingress` | Nginx · Traefik · Tailscale |
+| `lab / observability` | Grafana · Loki · Uptime Kuma |
+| `lab / management` | Portainer |
+
+## `jonas@codecorex:~$ ./learning-path`
+
+**A direction of travel, not a completion chart.**
+
+```text
+01  Linux administration
+    │  services · permissions · logs
+    ↓
+02  Networking
+    │  DNS · routing · HTTP / TLS
+    ↓
+03  CI/CD
+    │  checks · delivery · rollback
+    ↓
+04  Cloud fundamentals
+    │  compute · storage · identity
+    ↓
+05  Infrastructure as Code
+    │  Terraform / planned
+    ↓
+06  Kubernetes
+       orchestration / later
 ```
-$ whoami
+
+I'm deepening Linux, networking, CI/CD, and backend fundamentals. Cloud concepts are a learning focus; Terraform and Kubernetes are later steps, not current expertise.
+
+## `jonas@codecorex:~$ cat philosophy.txt`
+
+**Build → Deploy → Observe → Break → Debug → Automate → Repeat.**
+
+Break things deliberately in the lab. Carry the lessons into the next build.
+
+> I don't just want to know the commands. I want to understand the system.
+
+## `jonas@codecorex:~$ systemctl status curiosity`
+
+```text
+● curiosity.service
+  Never Stop Learning
+  Loaded: loaded
+  Active: active (running)
+
+  Linux knowledge      growing
+  Infrastructure       evolving
+  Things left to learn ∞
+  Curiosity            online
+
+jonas@codecorex:~$ █
 ```
 
-**Developer** · Dominican Republic  
-I ship code, containers, and infrastructure — all the way from commit to production.
-
-![Status](https://img.shields.io/badge/status-active-3fb950?style=flat-square&labelColor=0d1117)
-![Location](https://img.shields.io/badge/location-Dominican_Republic-58a6ff?style=flat-square&labelColor=0d1117)
-![Deploy](https://img.shields.io/badge/deploy-git_push_→_rebuild-58a6ff?style=flat-square&labelColor=0d1117)
-
----
-
-## `$ build` — the stack
-
-| Category | Tools |
-|---|---|
-| **Systems** | ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000) ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Tailscale](https://img.shields.io/badge/Tailscale-5B58EB?style=flat-square&logo=tailscale&logoColor=white) |
-| **Containers** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![docker-compose](https://img.shields.io/badge/docker--compose-2496ED?style=flat-square&logo=docker&logoColor=white) |
-| **Automation** | ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
-| **Backend** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) |
-| **Frontend** | ![Node](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) |
-
----
-
-## `$ test` — public repos
-
-Most of what I build for clients is private. Here's what's visible:
-
-| Repo | Description |
-|---|---|
-| [ai-engineering-system](https://github.com/Najo24-code/ai-engineering-system) | Multi-agent software engineering system |
-| [dotfiles-opencode](https://github.com/Najo24-code/dotfiles-opencode) | Multi-agent OpenCode config (agents, skills, commands) |
-| [support-tickets-api](https://github.com/Najo24-code/support-tickets-api) | Support ticket system |
-| [restaurant-booking-api](https://github.com/Najo24-code/restaurant-booking-api) | Restaurant table reservations |
-| [hotel-booking-api](https://github.com/Najo24-code/hotel-booking-api) | Hotel booking system |
-| [expense-tracker-api](https://github.com/Najo24-code/expense-tracker-api) | Personal expense tracker |
-| [book-tracker-api](https://github.com/Najo24-code/book-tracker-api) | Reading tracker |
-| [crm-contacts-api](https://github.com/Najo24-code/crm-contacts-api) | CRM contacts |
-| [taskflow-api](https://github.com/Najo24-code/taskflow-api) | Tasks and projects |
-
----
-
-## `$ deploy` — how I work
-
-```bash
-$ git push origin main        # push to remote, auto rebuild
-$ docker compose up -d --build
-$ curl -fsS .../health         # smoke test
-$ exit 0                       # green
-```
-
-Non-negotiable principles:
-
-- **Blue-green** for critical paths: never take down prod while changing.
-- **Rollback on red**: the smoke test decides; if it fails, I revert.
-- **Single deploy command**: `git push` is all it takes.
-- Deploy via `git push` to the server with automatic rebuild.
-- 2 Proxmox hosts, VMs, and Tailscale for networking.
-
-> I learn by building, breaking, and fixing things — for real.
-
----
-
-## `$ activity` — streak
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=Najo24-code&theme=github-dark)
-
-<!-- github-readme-stats is down. Activate when it returns:
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Najo24-code&show_icons=true&theme=github_dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Najo24-code&layout=compact&theme=github_dark)
--->
-
----
-
-## `$ exit 0`
-
-All green, no sales pitch.
-
-![Email](https://img.shields.io/badge/jonassuarez30%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)
-[![Portfolio](https://img.shields.io/badge/Portfolio-58a6ff?style=flat-square&logo=githubpages&logoColor=white)](https://najo24-code.github.io/pilotoapps-web)
+<sub>Personal operating philosophy. No live telemetry attached.</sub>

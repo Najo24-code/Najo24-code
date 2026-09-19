@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="570" viewBox="0 0 560 380" role="img" aria-labelledby="title desc">
+  <title id="title">Jonas Suárez / CodeCoreX</title>
+  <desc id="desc">Software Builder. Linux. DevOps in Progress. Building software, running infrastructure, learning how everything connects. Dominican Republic.</desc>
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#24313e" stroke-width="0.6"/>
+    </pattern>
+  </defs>
+  <!-- Self-contained static artwork: no remote fonts or motion dependencies. -->
+  <rect x="1" y="1" width="558" height="378" rx="14" fill="#10151c" stroke="#354452"/>
+  <path d="M344 1H545Q559 1 559 15V379H344Z" fill="url(#grid)"/>
+  <path d="M28 63H532M28 323H532" stroke="#354452"/>
+  <g font-family="ui-monospace, 'DejaVu Sans Mono', monospace">
+    <text x="28" y="43" fill="#edf3f8" font-size="26" font-weight="700">JS<tspan fill="#69d9ef">_</tspan></text>
+    <text x="532" y="40" text-anchor="end" fill="#a7b5c5" font-size="17" letter-spacing="2">CODECOREX / PERSONAL SYSTEM</text>
+    <text x="28" y="99" fill="#69d9ef" font-size="20">jonas@codecorex:~$</text>
+    <text x="25" y="155" fill="#edf3f8" font-size="47" font-weight="700" letter-spacing="-2">JONAS SUÁREZ</text>
+    <text x="28" y="195" fill="#edf3f8" font-size="24">Software Builder / Linux</text>
+    <text x="28" y="226" fill="#69d9ef" font-size="24">DevOps in Progress<tspan fill="#edf3f8">_</tspan></text>
+    <text x="28" y="269" fill="#a7b5c5" font-size="20">Building software. Running infrastructure.</text>
+    <text x="28" y="297" fill="#a7b5c5" font-size="20">Learning how everything connects.</text>
+    <circle cx="34" cy="350" r="5" fill="#69d9ef"/>
+    <text x="49" y="356" fill="#edf3f8" font-size="18">LAB NOTES / OPEN</text>
+    <text x="532" y="356" text-anchor="end" fill="#a7b5c5" font-size="18">DOMINICAN REP.</text>
+  </g>
+  <!-- Network motif is decorative; it does not report service status. -->
+  <g fill="#10151c" stroke="#69d9ef" stroke-width="1.5">
+    <path d="M461 89H503V116H531" fill="none"/>
+    <circle cx="461" cy="89" r="4"/>
+    <circle cx="503" cy="89" r="4"/>
+    <circle cx="531" cy="116" r="4"/>
+  </g>
+</svg>
