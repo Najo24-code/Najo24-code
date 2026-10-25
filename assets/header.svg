@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+  <title id="t">Jonas Suárez · DevOps &amp; Cloud Engineer</title>
+  <desc id="d">CI/CD, containers, infrastructure as code and Linux. A pipeline: commit, test, scan, build, deploy.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111a24"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1f2a37" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="14" fill="url(#grid)" opacity="0.45"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="13.5" fill="none" stroke="#30363d"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, monospace">
+    <text x="64" y="78" font-size="18" fill="#7d8590">~/jonas $ whoami</text>
+  </g>
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif">
+    <text x="62" y="146" font-size="60" font-weight="700" fill="#e6edf3">Jonas Suárez</text>
+    <text x="64" y="192" font-size="28" font-weight="600" fill="#58a6ff">DevOps &amp; Cloud Engineer</text>
+    <text x="64" y="232" font-size="19" fill="#9198a1">CI/CD · Containers · Infrastructure as Code · Linux</text>
+    <text x="64" y="262" font-size="16" fill="#7d8590">Dominican Republic</text>
+  </g>
+
+  <!-- pipeline motif -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" text-anchor="middle">
+    <g stroke="#30363d" stroke-width="2">
+      <line x1="758" y1="150" x2="1110" y2="150"/>
+    </g>
+    <g>
+      <circle cx="758" cy="150" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="3"/>
+      <circle cx="846" cy="150" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="3"/>
+      <circle cx="934" cy="150" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="3"/>
+      <circle cx="1022" cy="150" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="3"/>
+      <circle cx="1110" cy="150" r="9" fill="#58a6ff" stroke="#58a6ff" stroke-width="3"/>
+    </g>
+    <g fill="#9198a1">
+      <text x="758" y="188">commit</text>
+      <text x="846" y="188">test</text>
+      <text x="934" y="188">scan</text>
+      <text x="1022" y="188">build</text>
+      <text x="1110" y="188" fill="#58a6ff">deploy</text>
+    </g>
+  </g>
+</svg>
